@@ -28,7 +28,7 @@ public class RewardController {
 		
 	    @GetMapping(path="/getCustomerDetails", produces = "application/json")
 	    public Customers getCustomers()
-	    {
+	    { 
 	        return rewardservice.getCustDetails();
 	    }
 	    
